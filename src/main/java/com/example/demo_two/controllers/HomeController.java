@@ -12,9 +12,9 @@ public class HomeController
         return "home";
     }
     
-    @GetMapping("/home")
+    @GetMapping("/page2")
     public String getHomepage2()
     {
-        return "home";
+        return "profile";
     }
 }
